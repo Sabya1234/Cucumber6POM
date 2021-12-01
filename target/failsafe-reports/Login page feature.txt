@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Login page feature
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 41.551 s <<< FAILURE! - in Login page feature
+Forgot Password link(Login page feature)  Time elapsed: 13.334 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Forgot your password?1111"}
+  (Session info: MicrosoftEdge=96.0.1054.34)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-545D5VP', ip: '192.168.0.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 96.0.1054.34, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64639}, msedge: {msedgedriverVersion: 96.0.1054.34 (174c7c1059e27..., userDataDir: C:\Users\UX500019\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 91f9ce789a72a6909f9acba9327d3266
+*** Element info: {Using=link text, value=Forgot your password?1111}
+
