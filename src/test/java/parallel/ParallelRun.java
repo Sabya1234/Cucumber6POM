@@ -9,7 +9,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 
 @CucumberOptions(
-		features= {"src/test/resources/parallel/Loginpage.feature"},
+		features= {"src/test/resources/parallel"},
 		glue = {"parallel"},
 		plugin= {"pretty",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
